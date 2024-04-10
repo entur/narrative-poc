@@ -1,8 +1,0 @@
-apiVersion: v2
-name: getting-started
-description: "Getting started with Helm and the Common Chart"
-version: 0.1.0
-dependencies:
-  - name: common
-    version: 1.18.4
-    repository: "https://entur.github.io/helm-charts"

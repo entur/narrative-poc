@@ -1,8 +1,0 @@
-common:
-  env: tst
-  ingress:
-    host: getting-started.tst.entur.io
-  container:
-    env:
-      - name: SOME_VARIABLE
-        value: dev-is-dev
