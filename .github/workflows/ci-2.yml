@@ -1,0 +1,12 @@
+name: CI - push
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  docker-push:
+    uses: entur/gha-docker/.github/workflows/push.yml@v1.1.2
+    with:
+      environment: dev

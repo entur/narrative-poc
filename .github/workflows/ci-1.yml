@@ -1,0 +1,11 @@
+name: CI - lint and build
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  docker-lint:
+    uses: entur/gha-docker/.github/workflows/lint.yml@v1.1.2
+
+  docker-build:
+    uses: entur/gha-docker/.github/workflows/build.yml@v1.1.2

@@ -1,0 +1,26 @@
+# Please check for How To and recommendations in the DevOps Handbook
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      time: "09:00"
+      timezone: "Europe/Oslo"
+      day: "monday"
+
+  - package-ecosystem: docker
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      time: "09:00"
+      timezone: "Europe/Oslo"
+      day: "monday"
+
+  - package-ecosystem: terraform
+    directory: "terraform"
+    schedule:
+      interval: "weekly"
+      time: "09:00"
+      timezone: "Europe/Oslo"
+      day: "monday"
