@@ -1,0 +1,24 @@
+{
+  "utviklingsprinsipper": [
+    {
+      "name": "Enkelhet",
+      "description": "Hold ting enkelt og unngå unødvendig kompleksitet."
+    },
+    {
+      "name": "Modularitet",
+      "description": "Design systemer og komponenter som er modulære og kan gjenbrukes enkelt."
+    },
+    {
+      "name": "Skalerbarhet",
+      "description": "Bygg systemer som kan skalere for å håndtere økende krav."
+    },
+    {
+      "name": "Pålitelighet",
+      "description": "Sørg for at systemene er pålitelige og oppfører seg som forventet."
+    },
+    {
+      "name": "Sikkerhet",
+      "description": "Implementer robuste sikkerhetstiltak for å beskytte data og systemer."
+    }
+  ]
+}
