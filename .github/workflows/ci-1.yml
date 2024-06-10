@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   docker-lint:
-    uses: entur/gha-docker/.github/workflows/lint.yml@v1.1.2
+    uses: entur/gha-docker/.github/workflows/lint.yml@v1.3.3
 
   docker-build:
-    uses: entur/gha-docker/.github/workflows/build.yml@v1.1.2
+    uses: entur/gha-docker/.github/workflows/build.yml@v1.3.3
